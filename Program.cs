@@ -1,5 +1,5 @@
 ﻿//Projeto GicellyGomes ***GeneticaMediliana***
-[quarta-feira 19:40] GICELLY APARECIDA GOMES
+
 using System;
  
 class Program
@@ -77,8 +77,8 @@ class Program
  
         // Exibe as probabilidades e as características associadas a elas
         Console.WriteLine("--- Genética Mendeliana ---");
-        Console.WriteLine($"AA: {(probabilidadeAA * 100):0}% - {(tipoDominancia == 'C' ? "verde" : "magenta")}");
-        Console.WriteLine($"Aa: {(probabilidadeAa * 100):0}% - {(tipoDominancia == 'C' ? "verde" : "magenta")}");
-        Console.WriteLine($"aa: {(probabilidadeaa * 100):0}% - {(tipoDominancia == 'C' ? "verde" : "magenta")}");
+        Console.WriteLine($"AA: {(probabilidadeAA * 100):0}% - {(tipoDominancia == 'C' ? "vermelho" : "vermelho")}");
+        Console.WriteLine($"Aa: {(probabilidadeAa * 100):0}% - {(tipoDominancia == 'C' ? "rosa" : "rosa")}");
+        Console.WriteLine($"aa: {(probabilidadeaa * 100):0}% - {(tipoDominancia == 'C' ? "branco" : "branco")}");
     }
 }
