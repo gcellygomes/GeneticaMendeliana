@@ -1,6 +1,4 @@
 ﻿//Projeto GicellyGomes ***GeneticaMediliana***
-
-using System;
  
 class Program
 {
